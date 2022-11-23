@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Demo" verbose="1" >
+  <test name="test" >
+    <classes>
+    <class name="rcbTeam.validateForeginPlayers" />
+    <class name="rcbTeam.validateAtLeastOneWicketPlayer" /> 
+    </classes>
+  </test>
+ 
+</suite>
